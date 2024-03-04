@@ -1,31 +1,4 @@
 /* Write your CSS here! */
-/* body {
-    margin: 0; 
-    padding: 0; 
-} */
-
-/* #header-container{
- 
-    width: 100vw;
-    max-height: 800px;
-    background-color: #333; 
-    overflow: hidden;
-} */
-/* #header{
-    float: left; 
-    display: block; 
-    color: white;
-    text-align: center; 
-    padding: 14px 16px; 
-    text-decoration: none; 
- 
-} */
-
-/* #header-container a:hover {
-    background-color: #ddd; 
-    color: black; 
-} */
-
 body {
     background-color: rgb(96, 95, 95);
     margin: 8px;
@@ -35,9 +8,7 @@ body {
     min-height: 100vh;
 }
 
-main{
-    background-color: rgb(44, 44, 239);
-}
+
 
 #mainHeading {
     color: red;
@@ -61,14 +32,14 @@ main{
 } */
 
 .content {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Align items vertically */
+    display: flex; 
+    align-items: center; 
     margin-top: 20px;
     overflow: hidden;
 }
 
 .text-container {
-    margin-right: auto; /* Push the text container to the left */
+    margin-right: auto;
 }
 
 #testP {
@@ -88,10 +59,10 @@ main{
 }
 
 #mainHeading-image {
-    width: auto; /* Automatically adjust the width */
-    height: 200px; /* Set the height of the image */
+    width: auto; 
+    height: 200px; 
     border-radius: 10px;
-    margin-left: 10px; /* Add margin to separate from text */
+    margin-left: 10px; 
     margin-right: 10px;
 }
 a {
@@ -111,8 +82,8 @@ a {
 /* Existing CSS styles */
 
 main {
-    padding: 20px; /* Add padding to the main content area */
-    background-color: #f9f9f9; /* Set background color */
+    padding: 20px; 
+    background-color: #f9f9f9; 
 }
 
 .content {
@@ -121,26 +92,26 @@ main {
 }
 
 .projects {
-    display: flex; /* Use flexbox to align items in a row */
-    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    display: flex; 
+    flex-wrap: wrap; 
 }
 
 .portfolio-item {
-    flex: 0 0 30%; /* Each item takes up 30% of the container width */
-    margin: 10px; /* Add margin between items */
-    padding: 20px; /* Add padding inside each item */
-    border: 1px solid #ddd; /* Add a border for visual separation */
-    border-radius: 5px; /* Add rounded corners */
-    box-sizing: border-box; /* Include padding and border in item width */
+    flex: 0 0 30%;
+    margin: 10px; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
 }
 
 .portfolio-item h2 {
-    margin-top: 0; /* Remove default margin for the heading */
+    margin-top: 0; 
 }
 
 .portfolio-item img {
-    max-width: 100%; /* Ensure images fit within their container */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .button {
